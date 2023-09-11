@@ -1,0 +1,54 @@
+.top_destinations {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.top_destinations > .deco {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 25%;
+}
+
+.labels_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.75rem;
+}
+
+figure > img {
+  width: 100%;
+  height: 100%;
+} 
+
+.figure_destination{
+  width: 400px; 
+  height: 600px;
+  object-fit: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.figcaption_destination{
+  position: absolute; 
+  bottom: 2rem;
+}
+
+.destination_city {
+  font-family: "Iowan Old Style";
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+}
+
+.destination_country {
+  font-family: "Brightwall";
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: white;
+  padding-top: 1.25rem; 
+}

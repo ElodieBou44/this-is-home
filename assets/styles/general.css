@@ -1,0 +1,49 @@
+@import "reset.css";
+@import "header.css"; 
+@import "footer.css";
+/* @import "general.css";   */
+@import "variables.css";  
+@import "destination_labels.css";
+@import "canyon.css";
+@import "carrousel.css";
+@import "mexico.css";
+@import "index.css";
+
+@font-face{
+    font-family: "Brightwall";
+    src: url(/assets/fonts/brightwall.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Karla bold";
+    src: url(/assets/fonts/karla_bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Iowan Old Style";
+    src: url(/assets/fonts/iowan_old_style.bt.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Iowan Old Style bold";
+    src: url(/assets/fonts/iowan_old_style_bt_bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+*{
+    margin:0;
+    padding:0; 
+    box-sizing:border-box;
+}
+
+html{
+    font-size: var(--font-size-p);
+}
+
+img{
+    width: 100%;
+}

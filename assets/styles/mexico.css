@@ -1,0 +1,106 @@
+.submenu{
+    font-size: var(--font-size-h4);
+    font-family: "Brightwall";
+    display: flex;
+    gap: 3rem; 
+}
+
+.submenu a{
+    font-family: 'Brightwall';
+    color: black;
+    text-decoration: none;
+}
+
+.submenu a:first-child{
+    margin-left: 2.5rem;
+}
+
+.map{
+    width: 80%;
+    margin-top: 4rem; 
+    margin-left: 6rem; 
+}
+
+.intro{
+    display: flex;
+    margin-top: 4rem; 
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.intro > p{
+    font-size: 0.9rem;
+    max-width: 26rem; 
+    margin: 1rem;
+}
+
+.figure_mex{
+    display: flex;
+    flex-flow: flex-end; 
+    width: 40vw;
+    height: 20vw;
+}
+
+.figure_mex img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-flow: flex-end;
+}
+
+.legend{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.legend p{
+    font-family: 'Iowan Old Style';
+    padding: 2rem;
+}
+
+.legend img{
+    width: 20%;
+}
+
+.legend figcaption{
+    font-family: 'Brightwall';
+    position: absolute;
+    top:1.5rem;
+}
+
+.mex_destination{
+    padding-top: 4rem;
+    display: flex;
+}
+
+.dest_title{
+    display:flex; 
+    padding: 1rem;
+}
+
+.dest_title > img:first-child{
+    width:5%;
+}
+
+.island{
+    width:15%;
+}
+
+.holbox_text{
+    display:flex;
+}
+
+.dest_title > h2{
+    font-size: 4rem;
+    margin-right: 2rem;
+}
+
+.holbox_text p{
+    margin:2rem; 
+    font-size:0.7rem;
+}
+
+.mex_destination > img{
+    width:35%;
+}

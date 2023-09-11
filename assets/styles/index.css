@@ -1,0 +1,30 @@
+@import "reset.css";
+@import "header.css"; 
+@import "footer.css";
+@import "general.css";  
+@import "variables.css";  
+@import "destination_labels.css";
+@import "canyon.css";
+@import "carrousel.css";
+@import "mexico.css";
+
+div > h2{
+    font-family: "Brightwall";
+    font-size: var(--font-size-h2);
+}
+
+div > .deco{
+    width: 30%;
+    height: 30%;
+}
+
+main > section > p{
+    text-align: center;
+    line-height: 1.5rem;
+    margin: 2.5rem; 
+}
+
+section p span span{
+    font-family: "Brightwall";
+    font-size: 1rem; 
+}

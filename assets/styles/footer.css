@@ -1,0 +1,81 @@
+@import "variables.css";  
+@import "button.css";
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    margin-top: 5rem;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+}
+
+.home_footer{
+    display: flex;
+    width: 100%; 
+    justify-content: flex-end;
+    gap: 5em;
+}
+
+footer h4{
+    font-family: "Brigthwall";
+}
+
+div > h4{
+    font-family: "Brightwall";
+    margin-left: 2rem; 
+    font-size: var(--font-size-h2);
+}
+
+.home_footer > img{
+    width: 20%; 
+}
+
+footer > section > p{
+    padding-left: 9rem;
+    padding-right: 9rem;
+    padding-bottom: 1rem; 
+    text-align: center;
+    line-height: 1rem;
+}
+
+footer button{
+    margin: 4.5rem;
+}
+
+footer p{
+    font-family: "Iowan Old Style";
+    font-size: 0.5rem;
+}
+
+footer > svg{
+    z-index: 2;
+}
+
+footer > .nav_footer{
+    font-family: "Karla bold";
+    font-size: var(--font-size-h3);
+    background-color: var(--couleur-primaire);
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+footer > .nav_footer a{
+    color: black;
+    margin: 1.5rem;
+    text-decoration: none;
+}
+
+footer > div{
+    display: flex;
+}
+
+footer > p{
+    padding: 0.5rem;
+}

@@ -1,0 +1,62 @@
+.carrousel{
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    width: 100vw;
+    height: 25vw;
+    display: flex;
+    position: relative;
+    width: 100vw;
+}
+
+.carrousel a:hover span{
+    display: block;
+}
+
+.carrousel span{
+    display: none; 
+    position: absolute; 
+    top:7rem;
+    bottom:0;
+    left:0;
+    right:0;
+    text-align: center;
+    font-family: 'Iowan Old Style';
+    margin: 1rem;
+    color: black;
+}
+
+.carrousel a{
+    min-width: 25vw;
+    height: calc(25vw * .75);
+    box-sizing: border-box; 
+    scroll-snap-align: center;
+    list-style: none;
+    position: relative;
+    object-fit: cover;
+}
+
+.carrousel > a:first-child > img{
+    height: 33.3vw;
+    width: 25vw;
+}
+
+.carrousel img:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.carrousel button{
+    position: absolute; 
+    width: 3.5rem;
+    height: 3.5rem;
+    z-index: 5;
+    top: 3rem; 
+}
+
+.button-left { 
+    left: 20px;
+  }
+  
+.button-right {
+    right: 1rem;
+  }

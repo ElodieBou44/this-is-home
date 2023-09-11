@@ -1,0 +1,10 @@
+:root {
+    --couleur-primaire: #CDE5E9; 
+    --couleur-daccent: #80A8AF; 
+    --couleur-neutre: #323232;
+    --font-size-h1: 4.75rem; 
+    --font-size-h2: 2rem;
+    --font-size-h3: 1,5rem; 
+    --font-size-h4: 1rem;
+    --font-size-p: 2rem; 
+}

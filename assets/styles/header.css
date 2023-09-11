@@ -1,0 +1,95 @@
+@import "variables.css";  
+
+@keyframes slide {
+    0% {
+        margin-left: -1rem;
+    }
+
+    100% {
+        margin-top: 0.75rem;
+    }
+}
+
+.nav_header{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aNav{
+    animation-name: slide;
+    animation-duration: 5s; 
+    animation-fill-mode: forwards;
+    position: relative;
+    background-color: #cde5e9b0;
+    width: 7rem;
+    height: 7rem;
+    text-align: center;
+}
+
+.aNav-text{
+    position: absolute;
+    top:3rem;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.aNav-icon{
+    width: 100%;
+}
+
+nav > a:hover{
+    font-size: 1.1rem;
+}
+
+header > nav > a{
+    font-family: 'Karla bold';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 1rem;
+    top:1rem;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+img{
+    width: 100%;
+}
+
+.fig_header{
+    position: relative;
+}
+
+h1{
+    font-family: 'Brightwall';
+    font-size: var(--font-size-h1);
+    width: 100%; 
+    color: white;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0; 
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.res_sociaux{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
